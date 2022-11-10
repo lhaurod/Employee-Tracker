@@ -1,0 +1,29 @@
+{
+    "name": "employeedatabase",
+    "version": "1.0.0",
+    "description": "Application utilizing Node.js, Inquirer, and MySQL to interact with and store a database of basic employee information.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lhaurod/Employee-Tracker.git"
+    },
+    "author": "Lhaura Rodriguez",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lhaurod/Employee-Tracker/issues"
+    },
+    "homepage": "https://github.com/lhaurod/Employee-Tracker#readme",
+    "dependencies": {
+      "console.table": "^0.10.0",
+      "dotenv": "^10.0.0",
+      "inquirer": "^8.1.2",
+      "mysql2": "^2.3.0"
+    },
+    "devDependencies": {
+      "jest": "^27.1.0",
+      "nodemon": "^2.0.12"
+    }
+  }
